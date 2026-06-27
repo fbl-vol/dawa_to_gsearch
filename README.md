@@ -61,6 +61,13 @@ Supporting references:
 [implementation patterns](docs/implementation-patterns.md), and
 [response shapes](docs/response-shapes.md).
 
+## Companion CLI
+
+[gsearch-cli](https://github.com/martincollignon/gsearch-cli) is a separate
+agent-friendly command line tool for SDFI/Dataforsyningen GSearch. It covers
+generic resource search, merged `husnummer`/`adresse` suggestions, nearest
+`husnummer` spatial lookup, resource listing, and token/service diagnostics.
+
 ## Minimal GSearch request
 
 Create a Dataforsyningen account and token, then keep it in an environment
