@@ -8,6 +8,20 @@ The goal is to help humans and code agents pick the right replacement across
 **SDFI/Dataforsyningen GSearch**, **DAR/Datafordeler**, **Adressevælger**,
 **Adressevask**, downloads, events, WFS/OGC services, and dataset-specific APIs.
 
+## Lifecycle and ownership
+
+**Classification: documentation-only utility.** Maintainer: **Frederik Brunø
+Lottrup** (Pendio Engineering). The repository publishes migration guidance and
+credential-safe examples; it does not provide a supported runtime, package, or
+automated service integration.
+
+Agents may edit this repository after reading [`AGENTS.md`](AGENTS.md). Validate
+changed examples and links against their official source before review, without
+using real credentials or customer data. There is deliberately no CI baseline:
+examples span external providers and live checks would require credentials or
+assert behaviour outside this repository's scope. Lifecycle changes require
+Engineering owner approval.
+
 ## Why this repo exists
 
 DAWA has a public shutdown warning in the official DAWA documentation. Existing
