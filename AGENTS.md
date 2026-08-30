@@ -5,6 +5,15 @@ SDFI/Dataforsyningen GSearch where search is the right replacement, and use
 DAR/Datafordeler, Dataforsyningen downloads, events, WFS/OGC services,
 Adressevælger, Adressevask, or dataset-specific APIs for the rest.
 
+## Operating Baseline
+
+- Lifecycle: documentation-only utility. Maintainer: Frederik Brunø Lottrup
+  (Pendio Engineering); lifecycle changes require Engineering owner approval.
+- Entry point: this `AGENTS.md`; no shared foundation submodule is installed.
+- Validation boundary: review changed links and examples against official sources
+  without credentials or customer data. Do not add CI or live provider checks to
+  this intentionally static guidance repository.
+
 When adding examples or advice:
 
 - Do not create new DAWA integrations except when documenting migration from
